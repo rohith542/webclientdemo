@@ -1,0 +1,16 @@
+server:
+  port: 8080
+
+
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          mywebclient:
+            client-id: 0c00e066-2dbf-40ac-b2cb-b44f71265ac4_VW-SXM
+            client-secret: 87UacsEEARofoF3jv2gG6QX09IoJPyTE6zgF3japLu5J0I12UlWrEMYKwZza821C
+            authorization-grant-type: client_credentials
+        provider:
+          mywebclient:
+            token-uri: https://b-h-s.spr.us00.uat.con-veh.net/oidc/v1/token
